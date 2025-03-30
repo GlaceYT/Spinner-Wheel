@@ -41,7 +41,7 @@ const NameInput: React.FC = () => {
           transition={{ delay: 0.4, duration: 0.5 }}
           className="text-center"
         >
-          <h1 className="text-5xl font-bold text-white mb-2">🎡 Spin & Win!</h1>
+          <h1 className="text-5xl font-bold text-white mb-2">🎡 Spin the wheel!</h1>
           <p className="text-white/80 mb-8">Enter your name to try your luck</p>
         </motion.div>
 
