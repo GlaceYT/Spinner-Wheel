@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+
+    font-family: "Poppins";
+}
+
+
+
+   /* Webkit-based browsers */
+   ::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 8px; /* Height of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #1596ff; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #35d0ff; /* Color on hover */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Make the track invisible */
+  }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin; /* Make the scrollbar thinner */
+    scrollbar-color: #0586ff transparent; /* Thumb and track colors */
+  }
+
+  /* Optional: Add more specific styling for Firefox */
+  body::-webkit-scrollbar-thumb {
+    background-color: #13b4ff;
+    border-radius: 10px;
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #35d0ff;
+  }
